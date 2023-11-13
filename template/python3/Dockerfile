@@ -37,6 +37,10 @@ COPY function/requirements.txt	.
 
 RUN pip install -r requirements.txt --target=/home/app/python
 
+#Adding custom app instalation
+FROM alpine:latest
+RUN apk add --no-cache nmap
+
 WORKDIR /home/app/
 
 USER root
