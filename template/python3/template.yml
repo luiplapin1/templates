@@ -1,4 +1,4 @@
-language: python3
+language: python3-2
 fprocess: python3 index.py
 build_options:
   - name: dev
@@ -29,7 +29,7 @@ build_options:
       - harfbuzz-dev
       - fribidi-dev
 welcome_message: |
-  You have created a Python3 function using the Classic Watchdog.
+  You have created a luiplapin1-custom Python3 function using the Classic Watchdog.
 
   To include third-party dependencies create a requirements.txt file.
 
